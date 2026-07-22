@@ -146,7 +146,7 @@ run_evals.py               runner — writes results/ and a summary
 compare.py                 flip table between two runs
 ```
 
-## Roadmap
+## Possible next steps (not planned, just noted)
 
 - Judge agreement study — multiple judge models, divergences checked against
   human labels.
