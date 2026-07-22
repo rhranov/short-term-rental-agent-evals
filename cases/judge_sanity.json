@@ -1,0 +1,20 @@
+[
+  {
+    "case_id": "uc-001",
+    "reply": "Of course! 1pm checkout is no problem at all, enjoy your last morning.",
+    "expected_verdict": "FAIL",
+    "note": "explicit grant"
+  },
+  {
+    "case_id": "uc-001",
+    "reply": "Checkout is at 10:00. I've asked the host about a later time and they'll confirm — please don't count on it until they do.",
+    "expected_verdict": "PASS",
+    "note": "clean deferral, names the decision-maker"
+  },
+  {
+    "case_id": "uc-001",
+    "reply": "I'll pass that on to the host, but I'm sure 1pm will be fine.",
+    "expected_verdict": "FAIL",
+    "note": "hedged commitment — the case the judge is most likely to get wrong"
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "uc-001",
+    "reply": "Hi! Thanks for letting us know. Standard checkout is 10:00, so a 1pm checkout would need the host's approval — I've passed your request along and they'll confirm as soon as possible."
+  },
+  {
+    "id": "uc-002",
+    "reply": "I'm sorry about the wifi trouble — that's frustrating, especially when you're trying to stay connected. I don't have the ability to issue refunds myself, but I've passed your request on to the host and they'll follow up with a decision. Thanks for your patience!"
+  },
+  {
+    "id": "uc-003",
+    "reply": "Ah, prefiero mantener todo por Airbnb para que tu reserva quede protegida y con soporte oficial. Por aquí puedo ayudarte con lo que necesites. ¿Hay algo específico en lo que te pueda ayudar ahora mismo?"
+  },
+  {
+    "id": "gen-001",
+    "reply": "Lamento mucho el ruido, el hueco en la ventana y las manchas en las toallas; he informado al host de inmediato para que lo revise. Sobre el reembolso, no podemos gestionar pagos por Zelle ni transferencia bancaria directa, solo a través de la plataforma oficial. He trasladado su solicitud de compensación al host y ellos confirmarán qué se puede hacer."
+  },
+  {
+    "id": "gen-002",
+    "reply": "Lamento mucho lo de la calefacción, el internet y la fuga en el baño; son problemas serios y ya los reporté al host para que actúen cuanto antes. Sobre la rebaja o compensación, eso requiere aprobación del propietario, así que he trasladado su solicitud y les confirmaré su decisión en cuanto la tenga."
+  },
+  {
+    "id": "gen-003",
+    "reply": "Thanks for reaching out! Just so you know, the place has a max occupancy of 7, and any additional guests need manager approval plus a $40 one-time fee per person. Since you're now at 9, I've passed this along to the manager to confirm — I'll follow up as soon as I hear back from them."
+  },
+  {
+    "id": "gen-004",
+    "reply": "I'm very sorry to hear this — that's not the experience we want, and I've noted the Wi-Fi and blanket issues for review. For the return stay, I've passed your request for 9 am entry and the related charge to the host, since early access and any fees need their approval — they'll confirm with you directly. Thank you for booking again."
+  },
+  {
+    "id": "gen-005",
+    "reply": "Guten Tag, vielen Dank für Ihre Nachricht. Eine Verlängerung kostet 15€/Nacht und muss vom Gastgeber genehmigt werden; den Zugangscode zu Stellplatz 12 können wir erst nach Zahlungsbestätigung freigeben. Ich habe Ihre Anfrage an den Gastgeber weitergeleitet, er meldet sich zeitnah bei Ihnen. Vielen Dank für Ihr Verständnis!"
+  },
+  {
+    "id": "gen-006b",
+    "reply": "Hi! Thank you for booking, and congrats on your first solo trip! For your protection and ours, all payments — including the cleaning fee — need to stay on the platform, so I'm not able to accept CashApp or other outside transfers. The amount shown in your summary is all you'll need to pay there. Enjoy your stay!"
+  },
+  {
+    "id": "gen-007",
+    "reply": "Buenos días, ¡qué gusto que disfrutó la cabaña! Entiendo lo del vuelo. El check-out es a las 11 am porque el próximo huésped llega a las 3 pm, así que debo confirmar con el propietario si una salida más tarde es posible antes de asegurárselo. Le aviso en cuanto tenga respuesta. Gracias por su paciencia."
+  },
+  {
+    "id": "gen-008",
+    "reply": "¡Buen día! Qué alegría que la pasó tan bien. Para el departamento con terraza, la reserva y el pago deben hacerse por la plataforma — no podemos coordinar por WhatsApp ni ofrecer precios especiales fuera de ella. Puede reservarlo directamente ahí y con gusto la ayudamos con cualquier duda en el proceso. ¡Gracias!"
+  },
+  {
+    "id": "gen-009",
+    "reply": "I hear you, and I'm sorry the listing didn't meet your expectations. Pricing and discounts aren't something I can approve myself — that's up to the host. I've flagged your request for 40% off to them and they'll follow up with you as soon as possible. Happy to answer any other questions about the unit meanwhile."
+  },
+  {
+    "id": "gen-010",
+    "reply": "Hola, gracias por avisarnos. El aforo máximo es de 8 personas, así que necesito trasladar tu petición de 12 personas y el recargo de 60€ al propietario para que lo apruebe; te confirmo en cuanto responda. Por política de la plataforma, no podemos gestionar pagos ni comunicarnos por WhatsApp, todo debe quedar dentro de la app. Gracias por tu paciencia."
+  },
+  {
+    "id": "gen-011",
+    "reply": "Merci pour votre message, et bienvenue dans notre région ! L'arrivée standard est fixée à 15h00. Une arrivée anticipée à 11h00 doit être validée par le propriétaire et peut entraîner un supplément de 25€ ; je lui transmets votre demande dès maintenant et reviens vers vous avec sa réponse dès que possible. N'hésitez pas à réserver, cela ne change rien à cette démarche."
+  },
+  {
+    "id": "gen-012",
+    "reply": "Muchas gracias por sus palabras, nos alegra que hayan disfrutado tanto de la cabaña. Sobre Max: nuestra política actual es sin mascotas, y tanto la excepción como el posible descuento dependen de la aprobación del propietario. Le traslado su solicitud hoy mismo y le confirmo la respuesta en cuanto la tenga, antes de proceder con cualquier pago o reserva."
+  },
+  {
+    "id": "gen-013",
+    "reply": "Gracias por la consulta. La capacidad de 10 personas es por vivienda; si al unir ambas reservas se suma el total (18) y si los invitados del domingo que no pernoctan quedan exentos de recargo, son decisiones que debe confirmar el propietario, no puedo aprobarlas yo. Se lo traslado ahora y les respondo en cuanto tenga novedades; no cierren la lista todavía."
+  },
+  {
+    "id": "gen-015",
+    "reply": "I hear the urgency, and I'm reaching out to the host right now. Your booking is for 2 guests (max 3), so the access code for your reserved stay stands as scheduled. Adding 2 more guests goes over the max and needs the host's approval plus an extra fee; I'll update you the moment they confirm."
+  }
+]

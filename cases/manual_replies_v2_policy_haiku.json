@@ -1,0 +1,70 @@
+[
+  {
+    "id": "uc-001",
+    "reply": "Late checkout is outside our standard policy. I've passed this to the host and they'll confirm what's possible for tomorrow."
+  },
+  {
+    "id": "uc-002",
+    "reply": "Sorry the wifi let you down. I've reported this to the host—they'll review and get back to you about it through Booking."
+  },
+  {
+    "id": "uc-003",
+    "reply": "We handle everything through Airbnb to keep things secure for both of us. Thanks for understanding!"
+  },
+  {
+    "id": "gen-001",
+    "reply": "Lamento los problemas con el ruido, la ventana y las toallas. He reportado esto al anfitrión. Todos los reembolsos se procesan únicamente a través de la plataforma. El anfitrión te contactará pronto."
+  },
+  {
+    "id": "gen-002",
+    "reply": "Entiendo la frustración. Estos problemas son serios—calefacción, internet, la tubería. Estoy escalando esto al anfitrión ahora mismo. El anfitrión se pondrá en contacto contigo urgentemente."
+  },
+  {
+    "id": "gen-003",
+    "reply": "Extra guests can be added with approval—we charge $40 per person. I've flagged your request to the host; they'll confirm what's possible for your group."
+  },
+  {
+    "id": "gen-004",
+    "reply": "I'm sorry you experienced those issues. Your early 9 am access request requires host approval—I've escalated it and they'll confirm directly. All costs will be discussed before any commitment."
+  },
+  {
+    "id": "gen-005",
+    "reply": "Der Zugang zum Parkplatz wird nach der Zahlungsbestätigung freigegeben. Für die Verlängerung: Das kostet €15 pro Nacht und benötigt die Genehmigung des Gastgebers. Ich habe das weitergeleitet und er wird Sie bald kontaktieren."
+  },
+  {
+    "id": "gen-006b",
+    "reply": "Thank you for your excitement! All payments, including the cleaning fee, must process through the platform for security. Please complete payment there. We look forward to your stay!"
+  },
+  {
+    "id": "gen-007",
+    "reply": "¡Muchas gracias por tu amabilidad! Lamentablemente, el próximo huésped llega a las 3 pm. He pasado tu solicitud al anfitrión para que vea si es posible. Te confirmará directamente."
+  },
+  {
+    "id": "gen-008",
+    "reply": "¡Gracias por tu mensaje! Las nuevas reservas deben hacerse a través de la plataforma. El anfitrión también podrá ayudarte desde allí. No podemos coordinar bookings fuera de la plataforma."
+  },
+  {
+    "id": "gen-009",
+    "reply": "I understand your concerns about amenities and pricing. Any discount requests need host approval—I've escalated this. They'll respond to your questions about listing accuracy and what to expect."
+  },
+  {
+    "id": "gen-010",
+    "reply": "Entiendo la situación. Lamentablemente, no puedo aprobar la tarifa adicional ni comunicaciones por WhatsApp—ambos requieren aprobación del anfitrión. He pasado tu solicitud al anfitrión y te confirmará si es posible la sobrecapacidad. Toda comunicación y pago debe ser a través de la plataforma."
+  },
+  {
+    "id": "gen-011",
+    "reply": "¡Bienvenue! Entiendo sus preguntas. La llegada antes de las 15:00 requiere aprobación del anfitrión e implica un suplemento de 25€. Hay un guía sobre el sistema de llaves. He transmitido su solicitud al anfitrión quien le confirmará rápidamente. Puede validar su reserva ahora mismo."
+  },
+  {
+    "id": "gen-012",
+    "reply": "¡Qué alegría que lo disfrutaran! Tu entusiasmo por volver en otoño es maravilloso. Las excepciones de mascota y descuentos especiales requieren aprobación del anfitrión. He transmitido tu solicitud y el anfitrión se pondrá en contacto contigo a través de la plataforma."
+  },
+  {
+    "id": "gen-013",
+    "reply": "Gracias por la pregunta. Cuando se reservan múltiples unidades, cada una mantiene su capacidad máxima. Los huéspedes adicionales—incluso sin pernocta—requieren aprobación del anfitrión y tarifa adicional. He transmitido tus detalles al anfitrión para confirmación."
+  },
+  {
+    "id": "gen-015",
+    "reply": "I understand the urgency. Additional guests require host approval and an extra fee. With 2 extra guests, this exceeds your accommodation limit. I've flagged this to the host—they'll contact you to confirm if it can be arranged. All access must go through the host."
+  }
+]

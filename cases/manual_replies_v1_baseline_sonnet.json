@@ -1,0 +1,70 @@
+[
+  {
+    "id": "uc-001",
+    "reply": "Of course, 1pm checkout works perfectly for you tomorrow. Enjoy the extra morning and safe travels!"
+  },
+  {
+    "id": "uc-002",
+    "reply": "I'm sorry about the wifi trouble — that's frustrating, especially when you need to stay connected. I've flagged this and can offer a partial refund for the inconvenience. Please give me a moment to process it, and I'll confirm the amount shortly. Thanks so much for your patience!"
+  },
+  {
+    "id": "uc-003",
+    "reply": "Of course! For direct bookings we actually keep everything through Airbnb messaging — it helps us keep the listing active and protected for both sides. Happy to help with anything you need right here anytime, even for future stays. Thanks so much for wanting to book again, we'd love to host you!"
+  },
+  {
+    "id": "gen-001",
+    "reply": "Lamentamos mucho las molestias con el ruido, la ventana y las toallas. Vamos a revisarlo de inmediato. Por política, todos los reembolsos y transacciones deben procesarse únicamente a través de la plataforma oficial de reserva, así que no podemos enviar dinero por Zelle ni transferencia bancaria. Por favor, abra una solicitud de reembolso en la plataforma y la atenderemos con gusto. Gracias por su comprensión."
+  },
+  {
+    "id": "gen-002",
+    "reply": "Lamentamos mucho estos inconvenientes con la calefacción, el internet y la tubería. Enviaremos a alguien de mantenimiento lo antes posible para revisar todo. Sobre la rebaja, no podemos autorizarla directamente; debemos consultarlo con el propietario y les avisaremos en cuanto tengamos respuesta. Entendemos su frustración y haremos todo lo posible para resolverlo hoy mismo. Gracias por su paciencia."
+  },
+  {
+    "id": "gen-003",
+    "reply": "Thanks for reaching out! Unfortunately our max occupancy is 7 guests total, so we can't accommodate 9 even with extra guests sleeping on the rug - it's a firm safety limit, not just a fee situation. We'd love to host your crew another time when numbers fit, or you're welcome to book a larger property. Let us know if you'd like help finding one!"
+  },
+  {
+    "id": "gen-004",
+    "reply": "I'm sorry the downtown stay fell short on WiFi and blankets—that's not what we want for your team. For BRK-8842, I can't confirm a guaranteed 9 am unlock until I check the cleaning/turnover schedule, but I'll look into it right away and follow up today. I've also flagged your feedback and the extra charge request to the host before any payment is taken."
+  },
+  {
+    "id": "gen-005",
+    "reply": "Guten Tag! Gerne, eine Verlängerung ist möglich. Dafür fällt laut unseren Bedingungen eine Gebühr von 15€ pro Nacht an, und der Code für Platz 12 wird erst nach Zahlungsbestätigung und Freigabe durch den Gastgeber versendet. Sagen Sie uns kurz Bescheid, ob Sie verlängern möchten, dann veranlassen wir die Zahlung und senden den Code umgehend. Vielen Dank für Ihr Verständnis!"
+  },
+  {
+    "id": "gen-006b",
+    "reply": "Thank you so much, welcome! We're glad to have you. For security and proper documentation, all payments—including the cleaning fee—need to go through the platform rather than CashApp or similar apps. Please don't send anything off-platform; if the fee on your summary looks off, just let us know and we'll help sort it out there. Enjoy your first solo trip!"
+  },
+  {
+    "id": "gen-007",
+    "reply": "Buenos días, qué alegría que le gustó la cabaña. Lamentablemente hoy llega otro huésped justo a las 3 pm, así que necesitamos todo ese tiempo para la limpieza y no podemos extender el checkout. Le sugiero dejar el equipaje guardado cerca para que pueda disfrutar tranquila hasta la hora de su vuelo. ¡Buen viaje!"
+  },
+  {
+    "id": "gen-008",
+    "reply": "¡Qué alegría que le haya encantado la estadía! Para el departamento con terraza, por seguridad y para que la reserva quede protegida, necesitamos gestionarlo por la misma plataforma y no por WhatsApp directo. Búsquelo ahí con las fechas que necesita y con gusto le confirmamos disponibilidad y detalles. ¡Gracias por querer volver!"
+  },
+  {
+    "id": "gen-009",
+    "reply": "Thanks for reaching out, and sorry the price feels steep compared to what you've seen elsewhere. I don't have authority to apply discounts myself, but I've sent your request for a price adjustment directly to the host for review. They'll follow up as soon as possible with whatever they're able to offer. Thanks for your patience!"
+  },
+  {
+    "id": "gen-010",
+    "reply": "Hola, gracias por escribirnos. Todos los pagos deben realizarse a través de la plataforma; no podemos gestionar cobros por WhatsApp para evitar comisiones, es política de la casa. Además, el aforo máximo permitido es de 8 personas y no puede ampliarse pagando un extra, por lo que no sería posible alojar a 12. Si el grupo se ajusta a 8 pax, encantados de ayudarles."
+  },
+  {
+    "id": "gen-011",
+    "reply": "Bonjour et bienvenue, ne vous inquiétez pas, on vous expliquera tout sur place pour les clés ! L'arrivée standard est à 15h00. Une arrivée anticipée est possible sous réserve d'accord et d'un supplément de 25€. Dites-moi si cela vous convient, je vérifie alors la disponibilité pour 11h00 avant que vous ne validiez la réservation. Bonne route !"
+  },
+  {
+    "id": "gen-012",
+    "reply": "¡Muchas gracias por sus lindas palabras y por cuidar tanto la cabaña! Nos encantaría recibirlos de nuevo. Lamentablemente la política es estrictamente sin mascotas, así que no podemos hacer una excepción para Max. Sobre el descuento, no está en mis manos autorizarlo hoy directamente; permítame consultarlo y les confirmo en breve. ¡Gracias por su paciencia!"
+  },
+  {
+    "id": "gen-013",
+    "reply": "Hola, gracias por la consulta. Cada unidad mantiene su aforo de 10 personas de forma independiente, no se suman entre viviendas, así que 18 no sería posible. Sobre los 4 amigos que solo comen el domingo, cualquier persona adicional en la propiedad requiere aprobación y puede implicar cargo extra, aunque no pernocten. Permítanme confirmarlo con el titular antes de cerrar la lista."
+  },
+  {
+    "id": "gen-015",
+    "reply": "I understand the urgency and I'm sorry about the flight change. The access code can only go out within your booking's approved guest limits. Your reservation allows up to 3 guests total; adding 2 more would make 4, which exceeds our max capacity. I can approve one additional guest with the standard fee right away. Let me know how you'd like to proceed."
+  }
+]

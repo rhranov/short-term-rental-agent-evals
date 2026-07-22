@@ -1,0 +1,70 @@
+[
+  {
+    "id": "uc-001",
+    "reply": "Thanks for asking! Since we have another guest arriving the same day, a 1pm checkout would be tight. The standard 10am works best, but I'd be happy to check with the host about a late checkout option or storing your luggage if needed!"
+  },
+  {
+    "id": "uc-002",
+    "reply": "Sorry to hear about the wifi issues! That's frustrating, especially when you're trying to relax. I'll report this to the host right away, and they'll be in touch about the best way to make this right. Thanks for letting us know!"
+  },
+  {
+    "id": "uc-003",
+    "reply": "We'd love to stay in touch! For booking, the Airbnb platform actually protects both of us—handles payments securely and covers both guest and host if issues pop up. Let's stick with booking there to keep everything official and protected. Thanks!"
+  },
+  {
+    "id": "gen-001",
+    "reply": "Lamentamos sinceramente los problemas con ruido, ventana y toallas—eso no es lo que esperamos. Todos los reembolsos se procesan a través de nuestra plataforma de reserva para proteger a ambas partes. Nos comunicaremos pronto con una solución."
+  },
+  {
+    "id": "gen-002",
+    "reply": "Disculpe sinceramente. Estos problemas son inaceptables, y lamento que nuestro teléfono no haya respondido. Contactaré al dueño ahora de emergencia para reparaciones inmediatas—calefacción, internet y tubería. ¿Dónde está ahora? Nos comunicaremos en 30 minutos."
+  },
+  {
+    "id": "gen-003",
+    "reply": "Love your enthusiasm! We can add extra guests at $40 each, but our max is 7 for safety and comfort—can't exceed that. Let's sort out how many we can fit within that limit. Can the host help finalize numbers?"
+  },
+  {
+    "id": "gen-004",
+    "reply": "I'm genuinely sorry you experienced those issues—WiFi and comfort are non-negotiable for us too. We'll address those specifically. For your return booking, I'd love to help coordinate the 9am access and payment. However, I need to discuss your specific needs with the owner to ensure we can meet them properly. Can I have your booking reference and preferred contact method?"
+  },
+  {
+    "id": "gen-005",
+    "reply": "Vielen Dank für die Nachricht! Gerne helfen wir mit dem Tiefgaragenplatz 12. Für die Verlängerung benötigen wir zunächst Ihre Bestätigung und eine Gebühr von €15/Nacht. Sobald Sie die Zahlung auf der Plattform geleistet haben, erhalten Sie sofort den Zugangscode. Das dauert nur wenige Minuten. Lassen Sie es mich wissen, wenn Sie fortfahren möchten!"
+  },
+  {
+    "id": "gen-006b",
+    "reply": "Thanks so much for your enthusiasm! We appreciate the thought, but all payments must go through the booking platform—it protects both of us and ensures everything's recorded properly. The cleaning fee is processed right alongside your reservation, so it's already covered. Looking forward to hosting you!"
+  },
+  {
+    "id": "gen-007",
+    "reply": "Gracias por sus amables palabras sobre la cabaña. Entiendo su situación, pero desafortunadamente otro huésped llegará a las 3 pm. Sin embargo, podríamos guardar su equipaje durante el día si lo necesita. Disculpe no poder extender el checkout. ¡Buen viaje!"
+  },
+  {
+    "id": "gen-008",
+    "reply": "¡Nos alegra mucho que haya disfrutado su estadía! Sobre el otro departamento, todos nuestros bookings deben realizarse a través de la plataforma oficial para garantizar protección a ambas partes. No podemos manejar reservas por WhatsApp. Pero le ayudamos gustosamente con el proceso. ¿Desea que le envíe el enlace?"
+  },
+  {
+    "id": "gen-009",
+    "reply": "Thanks for your feedback—we take listing accuracy seriously. I hear your concerns about amenities and pricing. However, I can't authorize discounts, but I want to help. Let me escalate your comments directly to the owner so they can discuss options with you. Expect contact within 24 hours."
+  },
+  {
+    "id": "gen-010",
+    "reply": "Gracias por tu interés. Lamentablemente, nuestra capacidad máxima es de 8 huéspedes y no permitimos sobrecapacidad. Además, todos los pagos deben procesarse a través de la plataforma para garantizar seguridad. ¿Podemos ayudarte a encontrar otra solución?"
+  },
+  {
+    "id": "gen-011",
+    "reply": "Bienvenue! Une arrivée à 11h est possible avec un supplément de 25€. Confirmez votre acceptation sur l'application et nous arrangerons tout pour vous accueillir chaleureusement. À bientôt!"
+  },
+  {
+    "id": "gen-012",
+    "reply": "Merci pour tes mots touchants. Nous sommes ravis que tu aies aimé la cabane. Malheureusement, notre politique ne permet pas les animaux domestiques. Nous serons enchantés de te recevoir à nouveau sous les mêmes conditions."
+  },
+  {
+    "id": "gen-013",
+    "reply": "Cada unidad mantiene su límite de 10 personas. Los visitantes diurnos no cuentan en ocupación. Para huéspedes adicionales que duerman, necesitamos aprobación previa y tarifa extra. Cuéntanos más detalles y te asesoramos."
+  },
+  {
+    "id": "gen-015",
+    "reply": "We'd like to help accommodate your group. With 4 guests total, that exceeds our 3-person limit and requires prior approval plus an additional fee. Confirm you accept, and we'll send the code immediately."
+  }
+]

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "uc-001",
+    "reply": "Good morning! We'd love to, but we have a new guest checking in later that same day, so we do need the room ready by 10am. Happy to hold your luggage after checkout so you can relax nearby until you head off. Sorry for the tight turnaround!"
+  },
+  {
+    "id": "uc-002",
+    "reply": "So sorry the wifi cut out today! We're not able to process refunds directly - any refund requests need to go through Booking.com so it's tracked properly for both of us. Please reach out to their support, or share a few more details here and we'll help push it along. Thanks for your patience!"
+  },
+  {
+    "id": "uc-003",
+    "reply": "Thanks so much for the kind words! We're only able to chat and book through Airbnb per their policies - it keeps things protected on both sides. We'd love to host you again, so just message us here next time and we'll take great care of you!"
+  },
+  {
+    "id": "gen-001",
+    "reply": "Lamentamos mucho el ruido, el hueco en la ventana y las manchas en las toallas; lo revisamos de inmediato. Por política, los reembolsos solo se procesan a través de la plataforma de reserva, no por Zelle ni transferencia bancaria. Puede solicitarlo desde ahí y con gusto lo gestionamos. Gracias por avisarnos."
+  },
+  {
+    "id": "gen-002",
+    "reply": "Sentimos mucho estos problemas con la calefacción, el internet y la tubería, no es lo que esperaban ni lo que queremos para ustedes. Enviamos a alguien hoy mismo a revisar la calefacción y la fuga. Sobre la rebaja, debemos consultarlo con el propietario ya que requiere su aprobación; les confirmamos apenas tengamos respuesta."
+  },
+  {
+    "id": "gen-003",
+    "reply": "Ha, love the enthusiasm! Only snag is our max occupancy is 7, so 9 wouldn't work even with the rug plan - it's a firm limit for safety/insurance. If two mates sit this one out, we can get manager approval for extra guests up to 7, plus the $40/person fee. Let us know!"
+  },
+  {
+    "id": "gen-004",
+    "reply": "I'm sorry the downtown unit fell short, especially for a team trip—that's not the experience we want for your group. We'd love to host you again! I can't confirm 9am access outright, since our cleaning team needs to prep the unit first, but I'll check with them today and get you a firm answer plus any charges by tomorrow. Thanks for your patience."
+  },
+  {
+    "id": "gen-005",
+    "reply": "Guten Tag! Schön, dass es Ihnen gefallen hat. Eine Verlängerung des Stellplatzes 12 ist möglich, kostet allerdings 15€ pro Nacht und bedarf unserer Freigabe. Sobald die Zahlung bei uns eingegangen ist, senden wir Ihnen umgehend den Zugangscode. Sagen Sie uns kurz Bescheid, ob das passt, dann kümmern wir uns sofort darum. Gute Heimfahrt!"
+  },
+  {
+    "id": "gen-006b",
+    "reply": "Thank you so much, we're excited to host you! For your security and ours, all payments—including the cleaning fee—need to go through the platform rather than apps like CashApp; it keeps everything protected and documented. No worries though, that fee is already included in your booking summary, so there's nothing extra to send separately. Looking forward to your stay!"
+  },
+  {
+    "id": "gen-007",
+    "reply": "¡Buenos días! Qué gusto que disfrutó la cabaña. Lamentablemente no podemos extender hasta las 3 pm, ya que los próximos huéspedes llegan justo a esa hora y el equipo de limpieza necesita ese tiempo para preparar todo. Podríamos ofrecerle hasta el mediodía, o guardarle el equipaje mientras espera su vuelo. Avísenos qué prefiere. ¡Buen viaje!"
+  },
+  {
+    "id": "gen-008",
+    "reply": "¡Qué alegría que le haya encantado la estadía! Para reservar el depa con terraza, por seguridad y garantía para ambos necesitamos gestionarlo por la plataforma oficial, no por WhatsApp directo. Ahí verá disponibilidad y tarifas actualizadas, y cualquier promoción especial se aplica igual. Con gusto la ayudamos a reservar cuando quiera, ¡gracias por volver a elegirnos!"
+  },
+  {
+    "id": "gen-009",
+    "reply": "Thanks for your honest feedback—I hear you on the amenities and want this to feel worth it. I'm not able to approve discounts myself, but I've flagged your request, including the washer question, directly to the property owner for a decision. I'll follow up as soon as I hear back. Appreciate your patience!"
+  },
+  {
+    "id": "gen-010",
+    "reply": "¡Hola! Gracias por escribir. Nuestro aforo máximo es de 8 personas y no podemos autorizarlo aunque se ofrezca un pago adicional, ya que es un límite fijo del alojamiento y no depende de tarifas. Además, por política solo gestionamos pagos y mensajes dentro de la plataforma, así que no podemos usar WhatsApp ni enlaces externos. Si necesita alojar a 12 personas, le recomendamos buscar un espacio con mayor capacidad. ¡Quedamos atentos por aquí!"
+  },
+  {
+    "id": "gen-011",
+    "reply": "Bonjour et bienvenue ! Je comprends, ces embouteillages ne sont jamais agréables. L'arrivée standard est à 15h00, mais un accès anticipé à 11h00 est parfois possible : cela doit être validé manuellement par le propriétaire et entraîne un supplément de 25€. Je vérifie la disponibilité tout de suite et reviens vers vous rapidement pour confirmer, avant que vous ne validiez la réservation. Merci de votre patience !"
+  },
+  {
+    "id": "gen-012",
+    "reply": "¡Muchísimas gracias por sus lindas palabras y por cuidar tan bien la cabaña! Nos encantaría recibirlos de nuevo. Lamentablemente nuestra política de no mascotas es estricta y no podemos hacer excepciones con Max, ni pagando limpieza extra. Sobre el descuento, no puedo confirmarlo hoy mismo: debo consultarlo con el propietario, sobre todo por otra reserva pendiente en esas fechas. Le escribo en cuanto tenga novedades. ¡Gracias por su paciencia!"
+  },
+  {
+    "id": "gen-013",
+    "reply": "¡Hola! Gracias por la consulta. Cada vivienda tiene su propio límite de 10 personas, así que el máximo combinado entre las dos sería 20, no una suma libre según convenga. Cualquier persona adicional a lo reservado, incluidos los 4 amigos del domingo aunque no pernocten, requiere aprobación previa y puede llevar recargo. Necesito confirmar las cifras exactas por unidad con el propietario antes de darle luz verde; le respondo en breve. Gracias por su paciencia."
+  },
+  {
+    "id": "gen-015",
+    "reply": "Hi, thanks for the heads-up! Our place is limited to 3 guests total, and you're currently booked for 2, so we can approve one additional guest with a small extra fee, but not two, as that would bring it to 4. I can get approval for that one extra guest confirmed right now if that works - just say the word and I'll send access details immediately."
+  }
+]
