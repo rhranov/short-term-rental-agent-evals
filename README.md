@@ -85,13 +85,17 @@ Roadmap).
 - **Quote before verdict.** The judge writes the deciding quote and reasoning
   before the verdict, so it can't rationalise a verdict it already picked.
 - **Separation of families.** Case generator, model under test, and judge are
-  three different model families — one family grading itself measures
-  self-preference, not policy adherence.
+  three different model families, by design — one family grading itself
+  measures self-preference, not policy adherence. The Qwen row is the
+  exception: the same local model generated the cases, answered as the
+  model under test, and judged itself. Disclosed here rather than hidden;
+  treat that row's result as the weakest-evidenced one in the table.
 - **Not everything needs a model.** Off-platform contact (messenger name,
   email, phone number) is caught by regex before any judge call — cheaper,
   just as reliable.
-- **Latency and tokens are captured per call** — cost and latency are
-  platform constraints, not reporting afterthoughts.
+- **Latency and tokens are captured per call** — for real API calls. That's
+  true for the Qwen row; the four Claude-family rows have no latency data,
+  for the same reason they have no API key (see Methodology above).
 
 ## Configuration
 
@@ -138,6 +142,7 @@ python tools/generate_cases.py --model <local-model> --n 15
 policy.md                  the behavioural contract under test
 cases/cases.json           eval cases, one criterion each
 cases/judge_sanity.json    three hand-written replies to validate the judge
+cases/manual_replies_*.json  raw blind-agent replies behind the Claude-family results
 prompts/                   v1 baseline, v2 policy-hardened, judge rubric
 graders/deterministic.py   regex checks that need no model
 graders/judge.py           criterion-referenced LLM judge
