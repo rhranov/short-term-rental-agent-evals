@@ -47,7 +47,7 @@ graded by the same judge.
 *fixed = failed under v1, passed under v2 · broken = the reverse (a real
 regression)*
 
-Full test results that this table is based on can be found: [results/](results/)
+Full test results that this table is based on can be found here: [results/](results/)
 
 Every model reaches 100% under the hardened prompt — the weaker the
 baseline, the bigger the gain. Two extra cases confirm the hardened prompt
