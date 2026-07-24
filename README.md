@@ -11,6 +11,39 @@ answers that cost the host money or breach channel rules.
 to a local open-weight model — to 100% pass, up from a 74–100% baseline,
 with zero regressions.**
 
+## How it works
+
+```mermaid
+flowchart LR
+    A[19 synthetic guest cases] --> B[Evaluation runner]
+    B --> C1[Baseline prompt]
+    B --> C2[Policy-hardened prompt]
+    P[Commitment policy] --> C2
+    C1 --> D[Model under test]
+    C2 --> D
+    D --> E[Guest reply]
+    E --> F{Literal violation found?}
+    F -- Yes --> G[Deterministic grader]
+    F -- No --> H[Criterion-referenced LLM judge]
+    G --> I[Per-case result]
+    H --> I
+    I --> J[Compare prompt versions]
+    J --> K[Pass rates and regression table]
+```
+
+## Verify the headline result
+
+The repository includes the raw per-case results. Reproduce the largest
+measured improvement without an API key:
+
+```bash
+python compare.py \
+  results/v1_baseline__qwen3.6-35b-a3b-nvfp4-unsloth.json \
+  results/v2_policy__qwen3.6-35b-a3b-nvfp4-unsloth.json
+```
+
+Expected summary: `Pass rate 74% → 100% · fixed 5 · broken 0`.
+
 ---
 
 ## Why this exists
@@ -76,8 +109,8 @@ Roadmap).
   sanity check is a smoke test, not an agreement study — that's on the roadmap.
 - **Small n.** 19 cases. Enough to demonstrate the mechanism, not enough to
   make a confident claim about any model.
-- **No production concerns.** No retries, no tests, no cost ceiling, no
-  concurrency.
+- **No production concerns.** No retries, no automated code tests, no cost
+  ceiling, no concurrency.
 
 ## Design notes
 
@@ -97,7 +130,7 @@ Roadmap).
   just as reliable.
 - **Latency and tokens are captured per call** — for real API calls. That's
   true for the Qwen row; the four Claude-family rows have no latency data,
-  for the same reason they have no API key (see Methodology above).
+  because they are committed blind-agent replies rather than API runs.
 
 ## Configuration
 
@@ -109,8 +142,14 @@ you're using — bring your own inference.
 ## Run it
 
 ```bash
-pip install -r requirements.txt
-cp .env.example .env && export $(cat .env | xargs)
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+cp .env.example .env
+# Edit .env, then load it into a POSIX shell:
+set -a
+source .env
+set +a
 
 # 1. validate the judge before trusting it
 python check_judge.py --judge-model <judge>
