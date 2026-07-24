@@ -1,0 +1,32 @@
+name: CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.lock
+      - name: Install locked dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install --require-hashes -r requirements.lock
+      - name: Run offline unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Reproduce the committed comparison
+        run: |
+          python compare.py \
+            results/v1_baseline__qwen3.6-35b-a3b-nvfp4-unsloth.json \
+            results/v2_policy__qwen3.6-35b-a3b-nvfp4-unsloth.json

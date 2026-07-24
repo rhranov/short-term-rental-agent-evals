@@ -109,8 +109,10 @@ Roadmap).
   sanity check is a smoke test, not an agreement study — that's on the roadmap.
 - **Small n.** 19 cases. Enough to demonstrate the mechanism, not enough to
   make a confident claim about any model.
-- **No production concerns.** No retries, no automated code tests, no cost
-  ceiling, no concurrency.
+- **No production service layer.** The harness does not implement API retries,
+  concurrency, or a live-run cost ceiling. Offline unit tests cover
+  deterministic grading, prompt construction, and judge-output parsing; live
+  model evaluation remains an explicit, operator-initiated step.
 
 ## Design notes
 
@@ -144,21 +146,26 @@ you're using — bring your own inference.
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
+python -m pip install --require-hashes -r requirements.lock
+
+# 1. run deterministic checks; no API key or model endpoint required
+python -m unittest discover -s tests -v
+
+# 2. configure the live model and judge
 cp .env.example .env
-# Edit .env, then load it into a POSIX shell:
+# Edit .env, then load it into this POSIX shell:
 set -a
 source .env
 set +a
 
-# 1. validate the judge before trusting it
+# 3. validate the judge before trusting it
 python check_judge.py --judge-model <judge>
 
-# 2. run both prompt versions
+# 4. run both prompt versions
 python run_evals.py --prompt v1_baseline --model <model>
 python run_evals.py --prompt v2_policy   --model <model>
 
-# 3. diff them
+# 5. diff them
 python compare.py results/v1_baseline__<model>.json \
                   results/v2_policy__<model>.json
 ```
@@ -187,9 +194,11 @@ cases/manual_replies_*.json  raw blind-agent replies behind the Claude-family re
 prompts/                   v1 baseline, v2 policy-hardened, judge rubric
 graders/deterministic.py   regex checks that need no model
 graders/judge.py           criterion-referenced LLM judge
+tests/                     offline deterministic and parsing regression tests
 tools/generate_cases.py    grid-sampled generation against a local model
 run_evals.py               runner — writes results/ and a summary
 compare.py                 flip table between two runs
+.github/workflows/ci.yml   locked install, tests, and result reproduction
 ```
 
 ## Possible next steps for improvement
